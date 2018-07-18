@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.demo.test.TestQ.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Button text="Return Promise" press="showPopup" />
+					<Button text="Accept Promise" press="onResolve" type="Accept" />
+					<Button text="Reject Promise" press="onReject" type="Reject" />
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
